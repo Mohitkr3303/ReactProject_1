@@ -1,0 +1,73 @@
+@import "color";
+section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $second;
+
+  > main {
+    width: 80%;
+    height: 80%;
+    border-radius: 0 200px 200px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: $first;
+
+    > h1 {
+      position: absolute;
+      top: 2rem;
+      left: 2rem;
+      padding: 1rem;
+    }
+
+    > form {
+      height: 50%;
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      > div {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        > label {
+          width: 20%;
+          display: flex;
+          justify-content: center;
+          padding: 0.5rem;
+        //   border: 3px solid $third;
+          border-radius: 15px 0 0 15px;
+          font: 500 1rem "Roboto-b";
+        }
+        > input {
+          width: 70%;
+          padding: 0.5rem;
+          border: 3px solid $third;
+          border-radius: 0 15px 15px 0;
+          outline: none;
+          font: 800 .9rem $text2;
+        }
+      }
+    }
+  }
+}
+button{
+    width: 40%;
+    height: 50%;
+    border-radius: 10px;
+    font: 900 .8rem "Roboto-b";
+    background-color: $third;
+    border: none;
+    cursor: pointer;
+    color: white;
+}

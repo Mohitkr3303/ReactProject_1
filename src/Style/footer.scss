@@ -1,0 +1,48 @@
+@import "color";
+footer {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+
+  > div h1,
+  p {
+    color: $third;
+    margin: 0.3rem;
+    font-family: $text2;
+  }
+
+  > div {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    > h5 {
+      color: $third;
+      font: 300 1.5rem "Roboto-r";
+      text-align: center;
+      margin: 0.5rem 0;
+    }
+  }
+}
+#footer-icon {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  > a {
+    text-decoration: none;
+    padding: 0 0.5rem;
+    margin: 0.5rem 0;
+    font: 600 1rem $text2;
+    transition: .5s;
+
+    &:hover{
+        color: $third;
+    }
+  }
+}

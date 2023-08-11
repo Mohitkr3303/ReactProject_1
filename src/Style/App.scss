@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(../Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: "Roboto-r";
+    src: url(../Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto-b";
+    src: url(../Roboto/Roboto-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    scroll-behavior: smooth;
+    // border: 1px solid red;
+}
